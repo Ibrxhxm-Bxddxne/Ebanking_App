@@ -20,7 +20,3 @@ Pour faire fonctionner ce projet sur votre machine, vous devez avoir **Docker De
 2. **Lancer l'application** :
    ```bash
    docker-compose up -d
-
-3. **Accéder à l'application** :
-- *Interface Web* : [Hachage Argon2id.](http://localhost:8080)
-- *Base de données (externe)* : Port 3307 (localhost)
