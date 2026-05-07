@@ -16,7 +16,7 @@ try {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EBANKING Secure | Bienvenue</title>
+    <title>E-BANKING Secure | Bienvenue</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
         :root { --primary-color: #2c3e50; --accent-color: #3498db; }
@@ -32,7 +32,7 @@ try {
 <!-- Navigation -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
     <div class="container">
-        <a class="navbar-brand fw-bold" href="#">EBANKING <span class="text-info">SECURE</span></a>
+        <a class="navbar-brand fw-bold" href="#">E-BANKING <span class="text-info">SECURE</span></a>
         <div class="d-flex">
             <?php if(isset($_SESSION['user_id'])): ?>
                 <a href="dashboard.php" class="btn btn-outline-info me-2">Mon Tableau de Bord</a>
@@ -106,7 +106,7 @@ try {
 
 <footer class="bg-dark text-light py-4 mt-5 border-top border-info border-3">
     <div class="container text-center">
-        <p class="mb-0 small text-muted">&copy; 2026 EBANKING Secure - Projet Académique - Développement PHP & Cloud Azure</p>
+        <p class="mb-0 small text-muted">&copy; 2026 E-BANKING Secure - Projet Académique - Développement PHP & Cloud Azure</p>
     </div>
 </footer>
 
